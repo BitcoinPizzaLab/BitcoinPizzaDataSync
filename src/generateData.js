@@ -14,7 +14,7 @@ fs.readdir(folderPath, (error, files) => {
 
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
-    const id = file.split("_")[1];
+    const id = file.split("_")[1].split(".")[0];
 
     fs.readFile(filePath, (error, data) => {
       if (error) {
