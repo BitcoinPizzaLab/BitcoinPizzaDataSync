@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-pizza-datasync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node ./src/generateData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitcoinPizzaLab/BitcoinPizzaDataSync.git"
+  },
+  "keywords": [
+    "btc",
+    "nft",
+    "ordinals",
+    "ts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitcoinPizzaLab/BitcoinPizzaDataSync/issues"
+  },
+  "homepage": "https://github.com/BitcoinPizzaLab/BitcoinPizzaDataSync#readme"
+}
