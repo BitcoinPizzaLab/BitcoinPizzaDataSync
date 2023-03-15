@@ -1,0 +1,9 @@
+{
+    "hash" : {
+        "id": "1",
+        "hashes": [{
+            "InscriptionId": "itemId"
+        }],
+        "lowest": "id"
+    }
+}
