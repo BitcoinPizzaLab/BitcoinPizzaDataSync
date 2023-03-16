@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "rename": "node ./src/batchRename.js",
     "gen": "node ./src/generateData.js",
     "watch": "node ./src/watch.js",
     "test": "echo \"Error: no test specified\" && exit 1"

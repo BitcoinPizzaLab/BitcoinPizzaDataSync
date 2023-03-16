@@ -1,7 +1,7 @@
 const fs = require("fs");
 const crypto = require("crypto");
 
-const folderPath = "./assets/images";
+const folderPath = "./assets/useless";
 const outputFilePath = "./assets/pizzasList.json";
 
 fs.readdir(folderPath, (error, files) => {
@@ -23,13 +23,15 @@ fs.readdir(folderPath, (error, files) => {
       }
 
       const hash = crypto.createHash("md5").update(data).digest("hex");
-      hashes[hash] = {
+      if (!hashes["list"]) hashes["list"] = {};
+
+      hashes["list"][hash] = {
         id,
-        hashes: [],
+        hashes: {},
         lowest: "",
       };
 
-      if (Object.keys(hashes).length === files.length) {
+      if (Object.keys(hashes.list).length === files.length) {
         writeHashesToFile(hashes, outputFilePath);
       }
     });
@@ -37,6 +39,10 @@ fs.readdir(folderPath, (error, files) => {
 });
 
 function writeHashesToFile(hashes, filePath) {
+  const sortedArray = Object.entries(hashes.list).sort(([, a], [, b]) => a.id - b.id);
+  const sortedObject = Object.fromEntries(sortedArray);
+  hashes.list = sortedObject;
+
   fs.writeFile(filePath, JSON.stringify(hashes, null, 2), (error) => {
     if (error) {
       console.error(`Failed to write file ${filePath}:`, error);
