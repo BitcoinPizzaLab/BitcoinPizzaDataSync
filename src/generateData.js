@@ -1,7 +1,7 @@
 const fs = require("fs");
 const crypto = require("crypto");
 
-const folderPath = "./assets/useless";
+const folderPath = "./assets/output";
 const outputFilePath = "./assets/pizzasList.json";
 
 fs.readdir(folderPath, (error, files) => {

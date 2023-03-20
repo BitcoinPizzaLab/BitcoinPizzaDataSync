@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const directoryPath = "./assets/useless";
+const directoryPath = "./assets/output";
 
 fs.readdir(directoryPath, (error, files) => {
   if (error) {
