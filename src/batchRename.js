@@ -23,7 +23,7 @@ fs.readdir(directoryPath, (error, files) => {
         }
 
         if (stats.isFile()) {
-          const newName = `cryptopizza_${index}.png`;
+          const newName = `cryptopizza_${Number(index)+1}.png`;
 
           fs.rename(filePath, path.join(directoryPath, newName), (error) => {
             if (error) {
