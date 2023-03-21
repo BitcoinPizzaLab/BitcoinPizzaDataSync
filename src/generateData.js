@@ -28,7 +28,7 @@ fs.readdir(folderPath, (error, files) => {
       hashes["list"][hash] = {
         id,
         hashes: {},
-        lowest: "",
+        lowest: ""
       };
 
       if (Object.keys(hashes.list).length === files.length) {
