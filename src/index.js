@@ -47,8 +47,11 @@ async function handleEvent(event) {
     response.headers.set("Referrer-Policy", "unsafe-url");
     response.headers.set("Feature-Policy", "none");
 
-	response.headers.set("Access-Control-Allow-Origin", "*");
-    response.headers.set("Access-Control-Allow-Methods", "GET,HEAD,POST,OPTIONS");
+    response.headers.set("Access-Control-Allow-Origin", "*");
+    response.headers.set(
+      "Access-Control-Allow-Methods",
+      "GET,HEAD,POST,OPTIONS"
+    );
     response.headers.set("Access-Control-Max-Age", "86400");
 
     return response;

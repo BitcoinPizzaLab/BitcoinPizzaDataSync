@@ -1,0 +1,45 @@
+name: update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Use Node.js 16.13
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.13
+          cache: "npm" # cache ~/.npm in case 'npm ci' needs to run
+
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install # will run `yarn install` command
+
+      - name: Build wrangler
+        run: npm run build
+
+      - name: Watch Data
+        run: npm run watch
+
+      - name: Update
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.TOKEN }}
+
+
+      - uses: actions/checkout@v3
+      - name: Publish
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
