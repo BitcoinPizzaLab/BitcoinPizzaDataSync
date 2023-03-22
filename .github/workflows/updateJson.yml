@@ -33,7 +33,9 @@ jobs:
         run: npm run watch
 
       - name: Update Data
-        run: git push
+        run: |
+          git commit -m "update json by github action"
+          git push
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
