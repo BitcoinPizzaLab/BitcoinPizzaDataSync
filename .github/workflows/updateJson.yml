@@ -40,9 +40,9 @@ jobs:
           git commit -m "update json by github action"
 
       - name: Push changes
-          uses: ad-m/github-push-action@master
-          with:
-            github_token: ${{ secrets.TOKEN }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
