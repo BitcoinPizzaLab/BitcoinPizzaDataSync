@@ -26,9 +26,6 @@ jobs:
         with:
           cmd: install # will run `yarn install` command
 
-      - name: Build wrangler
-        run: npm run build
-
       - name: Watch Data
         run: npm run watch
 
