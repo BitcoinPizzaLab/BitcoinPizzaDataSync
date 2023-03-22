@@ -332,8 +332,10 @@
     },
     "1dabf80c82140a9d524ba95f7b98c6f9": {
       "id": "67",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "572836": "0ad721e31c92e33646b74c0b17b68c8c151dc6b2f9b5b1b9540691f8f4048bebi0"
+      },
+      "lowest": 572836
     },
     "32ed1e5e818bd1fe1d70a721ce3f36ad": {
       "id": "68",
@@ -2610,5 +2612,6 @@
       "hashes": {},
       "lowest": ""
     }
-  }
+  },
+  "latestOffset": 572214
 }
