@@ -5,7 +5,7 @@ const watermarkImagePath = './assets/watermark.png';
 const sourceFolderPath = './assets/pizza';
 const outputFolderPath = './assets/output';
 
-const watermarkOpacity = 0.7;
+const watermarkOpacity = 0.3;
 
 // 加载水印图片
 Jimp.read(watermarkImagePath, (err, watermarkImage) => {
