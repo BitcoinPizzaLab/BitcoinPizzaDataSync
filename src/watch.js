@@ -86,8 +86,6 @@ async function run() {
     });
     console.log(currentOffsetNum);
 
-    if (nextInscriptions.length < 100) break;
-
     try {
       await processBatch(nextInscriptions);
       currentOffsetNum += 100;
@@ -96,6 +94,8 @@ async function run() {
       await delay(2000);
       continue;
     }
+
+    if (nextInscriptions.length < 100) break;
   }
 }
 
