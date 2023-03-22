@@ -32,10 +32,17 @@ jobs:
       - name: Watch Data
         run: npm run watch
 
-      - name: Update Data
+      - name: Commit
         run: |
+          git config --global user.email bitcoinnftpizzalab@gmail.com
+          git config --global user.name bitcoinnftpizzalab
+          git add .
           git commit -m "update json by github action"
-          git push
+
+      - name: Push changes
+          uses: ad-m/github-push-action@master
+          with:
+            github_token: ${{ secrets.TOKEN }}
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
