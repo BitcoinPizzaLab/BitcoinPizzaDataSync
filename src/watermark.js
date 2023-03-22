@@ -2,7 +2,7 @@ const Jimp = require('jimp');
 const fs = require("fs");
 
 const watermarkImagePath = './assets/watermark.png';
-const sourceFolderPath = './pizza';
+const sourceFolderPath = './minifile';
 const outputFolderPath = './assets/output';
 
 const watermarkOpacity = 0.3;
@@ -22,9 +22,8 @@ Jimp.read(watermarkImagePath, (err, watermarkImage) => {
       // 加载源图片
       Jimp.read(sourceImagePath, (err, sourceImage) => {
         if (err) throw err;
-
         // 调整水印大小
-        const watermarkWidth = sourceImage.bitmap.width * 0.8;
+        const watermarkWidth = sourceImage.bitmap.width * 0.5;
         const watermarkHeight = watermarkImage.bitmap.height * (watermarkWidth / watermarkImage.bitmap.width);
         watermarkImage.resize(watermarkWidth, watermarkHeight);
 

@@ -6,7 +6,8 @@
   "scripts": {
     "rename": "node ./src/batchRename.js",
     "gen": "node ./src/generateData.js",
-    "watch": "node ./src/watch.js"
+    "watch": "node ./src/watch.js",
+    "minifile": "rm -rf './minifile' && squoosh-cli --oxipng auto ./pizza -d ./minifile"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,10 @@
   },
   "homepage": "https://github.com/BitcoinPizzaLab/BitcoinPizzaDataSync#readme",
   "dependencies": {
+    "@squoosh/cli": "^0.7.3",
     "axios": "^1.3.4",
-    "jimp": "^0.22.7"
+    "jimp": "^0.22.7",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "wrangler": "^2.13.0"
