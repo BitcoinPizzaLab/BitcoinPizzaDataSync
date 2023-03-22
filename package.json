@@ -32,6 +32,7 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0",
     "wrangler": "^2.13.0"
   }
 }
