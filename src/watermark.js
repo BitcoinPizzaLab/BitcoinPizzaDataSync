@@ -2,7 +2,7 @@ const Jimp = require('jimp');
 const fs = require("fs");
 
 const watermarkImagePath = './assets/watermark.png';
-const sourceFolderPath = './assets/pizza';
+const sourceFolderPath = './pizza';
 const outputFolderPath = './assets/output';
 
 const watermarkOpacity = 0.3;
