@@ -32,6 +32,9 @@ jobs:
       - name: Watch Data
         run: npm run watch
 
+      - name: Update Data
+        run: git push
+
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
         with:
