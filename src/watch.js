@@ -3,7 +3,9 @@ const crypto = require("crypto");
 const fs = require("fs");
 const pizzasList = require("../assets/pizzasList.json");
 
-const lowestOffsetNum = 599544;
+// const lowestOffsetNum = 599544;
+
+const lowestOffsetNum = 602042;
 let currentOffsetNum = lowestOffsetNum;
 
 const ORD_URL = "https://ordapi.xyz";
