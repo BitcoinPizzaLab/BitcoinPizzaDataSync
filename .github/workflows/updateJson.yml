@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.13
-          cache: "npm" # cache ~/.npm in case 'npm ci' needs to run
 
       - name: Run install
         uses: borales/actions-yarn@v4
