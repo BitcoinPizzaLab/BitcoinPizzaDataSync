@@ -12,4 +12,3 @@
 1. npm run rename
 2. npm run gen
 3. npm run watch && pm2
-4. test
