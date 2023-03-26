@@ -92,8 +92,10 @@
     },
     "40916705524f9b7a1191fbd05f7ded76": {
       "id": "13",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601487": "03f19fef2608fd9270a6746179fdf24c4c25dfffcb8c23fb5bc1cca129f76a5ai0"
+      },
+      "lowest": 601487
     },
     "54b6cb408a4e678bb54d04e05353b2f0": {
       "id": "14",
@@ -401,8 +403,10 @@
     },
     "350e3e2a7cf10fc6e7d9e369906b0efe": {
       "id": "59",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601495": "c9e016b86161d04ab436316a48a50fb90f6160944d51fd4f92043f9a6d35469ai0"
+      },
+      "lowest": 601495
     },
     "70ef5e850f945273db1d1b95ca46c218": {
       "id": "60",
@@ -428,8 +432,10 @@
     },
     "712c5e4decfe2a618786918c8bfeccd9": {
       "id": "63",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601494": "262c7d1ff96e1288a140a4ea2f8d15540e63f9d5a5955a7e6f007d9c04996396i0"
+      },
+      "lowest": 601494
     },
     "2f0412b5ff6965c48a949f8605b1510d": {
       "id": "64",
@@ -645,8 +651,10 @@
     },
     "e858a648bfea6d5c481b1cced8ae1be7": {
       "id": "95",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601485": "657cdfe515d027b14121350f555192c1e524c6b97bec83d7237603e6ed99abcbi0"
+      },
+      "lowest": 601485
     },
     "39b1c08368b043bdcb5020fc272b2da1": {
       "id": "96",
@@ -1660,8 +1668,10 @@
     },
     "53282309ad2b14b40b87b61ff77f1c82": {
       "id": "242",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601513": "81e3d309f476763ec249f84774ca9e3c6b814543707b52ed7c3a839d54a23bddi0"
+      },
+      "lowest": 601513
     },
     "fb6efc1b951f0ea9c6e45810da3b7cc3": {
       "id": "243",
@@ -1696,8 +1706,10 @@
     },
     "a97e7e5c3d0a58f348018d132f1a03c4": {
       "id": "247",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601483": "033ccac181dec79e64c8a874712e4d8d22f7295898455c9fedaf964621238a7ai0"
+      },
+      "lowest": 601483
     },
     "ade4122dfe817ee83ed2fc0d0ac0f928": {
       "id": "248",
@@ -1909,8 +1921,10 @@
     },
     "45fd7673876b9203254b957c5cf85c32": {
       "id": "279",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601518": "479c3cee25f7e239c7693276346882ae1eefce301db6262061756425ae7412ffi0"
+      },
+      "lowest": 601518
     },
     "483635cad9bf5427169f3d4871d70a5d": {
       "id": "280",
@@ -1942,8 +1956,10 @@
     },
     "26a0c06d27532ee79416de9ea0c6b535": {
       "id": "284",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601524": "809bbaa7ab3d12fc5ce1111ee5277b4e281fa888e06b760c50ae1435f4c86c10i0"
+      },
+      "lowest": 601524
     },
     "0e985bfe70a3995f13e0e8539a20e9d5": {
       "id": "285",
@@ -2076,7 +2092,8 @@
       "id": "304",
       "hashes": {
         "601432": "a6e7e780031e1ea9e7e63e361adb2e201f852fa9a20afd036079f92f042cf7d4i0",
-        "601448": "5d1a94d917b8b4de2114f0671284837378d7c30e35dae59249b0cbc18c2479e5i0"
+        "601448": "5d1a94d917b8b4de2114f0671284837378d7c30e35dae59249b0cbc18c2479e5i0",
+        "601514": "0e70661c8cf49630fe8240b351058685516eb79808638e386d97853668a3cddfi0"
       },
       "lowest": 601432
     },
@@ -2111,8 +2128,10 @@
     },
     "c1023eb37fe79116674388930aecc190": {
       "id": "310",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601543": "1fbdc9fe6a1ce6b57dc6711c254d9251964314470dd84d85ced6983066868974i0"
+      },
+      "lowest": 601543
     },
     "0d41453eef75714fac5f9cc8e8e11fdb": {
       "id": "311",
@@ -2133,7 +2152,8 @@
       "id": "314",
       "hashes": {
         "601060": "eda712679a13e9228afcba4a2d251eaefeb6e3c010d6079067c2e0e22a6c6729i0",
-        "601461": "ff53c2759c64f124f900dcfb268c4118c5e858e61d3d57a7aa12f3e0981f4ccdi0"
+        "601461": "ff53c2759c64f124f900dcfb268c4118c5e858e61d3d57a7aa12f3e0981f4ccdi0",
+        "601520": "046c5bd6d7a0ee46ceb4c7bfcb0ab47a1b572f8c5c99dbf6972215357b600911i0"
       },
       "lowest": 601060
     },
@@ -2177,8 +2197,10 @@
     },
     "c7d0b83f00f6d70c56846e19ee3dfe6c": {
       "id": "321",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601496": "4e49a34cca0392a6865734f667ccdbdb0587d15af4494936dede250f3711b5e0i0"
+      },
+      "lowest": 601496
     },
     "53b79b82413a1175b76f153f056f1896": {
       "id": "322",
@@ -2480,8 +2502,10 @@
     },
     "a362d0bf1ffe367abbbc495603ffa9a3": {
       "id": "367",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601537": "4b9a06d8b2dc578c5c5563cfad0e5e80326e1c3ad8b14eed12bc2b1c58fa6362i0"
+      },
+      "lowest": 601537
     },
     "b5c67bdf34826304184762f26b1faf57": {
       "id": "368",
@@ -2650,7 +2674,8 @@
     "4356c21c54e6c73175e69a2512579f24": {
       "id": "394",
       "hashes": {
-        "601421": "b391db2f9a481f33e789ccd3051bd6fda99bf20dbd91e82d9998f4583c163e44i0"
+        "601421": "b391db2f9a481f33e789ccd3051bd6fda99bf20dbd91e82d9998f4583c163e44i0",
+        "601519": "82dc4259ac324d4becc81b75b0dcc4b7b268e5522a04f14af26f1caa7f9e3e3di0"
       },
       "lowest": 601421
     },
@@ -2710,8 +2735,10 @@
     },
     "dfe16fadf2dc421e23907106e15f78b7": {
       "id": "403",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601493": "fb9a55d4f272aff130a49ae539c288c5bf60ed175f0c57b3702011c6f764372bi0"
+      },
+      "lowest": 601493
     },
     "001ab2d09383b552fb483f4d94461010": {
       "id": "404",
@@ -3154,8 +3181,10 @@
     },
     "fb55a4d36576d3f9ccda22e4b8b09997": {
       "id": "470",
-      "hashes": {},
-      "lowest": ""
+      "hashes": {
+        "601523": "b533c542f0caea8e4be511aa5a599f9c2c8c04210547c3516678faceacc5df08i0"
+      },
+      "lowest": 601523
     },
     "6f286f03252d739648beb70bffbaf5fe": {
       "id": "471",
